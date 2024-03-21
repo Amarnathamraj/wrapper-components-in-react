@@ -27,7 +27,7 @@ function ExpenseItem(props) {
         <div className="expense-item__price">${props.price}</div>
       </div>
   
-     <button onClick={ClickHandler}>randombutton</button>
+     <button onClick={ClickHandler}>Delete</button>
     </Card>
   );
 }
